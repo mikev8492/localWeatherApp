@@ -7,7 +7,7 @@ $(document).ready(function() {
 
     console.log(position.coords.latitude, position.coords.longitude);
   });
-  var api = "https://fcc-weather-api.glitch.me/api/current?";
+  var api = "https://weather-proxy.freecodecamp.rocks/api/current?";
   var lat, lon;
   setTimeout(function() {
     $("#btn").text("Get Forecast").addClass("btn btn-lg btn-outline-info").attr("href");
